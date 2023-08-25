@@ -10,7 +10,7 @@ def home(request):
     return render(request,'shop/home.html')
 
 def about(request):
-    return HttpResponse("shop - about link working")
+    return render(request,'shop/about.html')
 
 def contact(request):
     return HttpResponse("shop - contact link working")
